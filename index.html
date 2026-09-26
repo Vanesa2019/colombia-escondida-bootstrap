@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Colombia Escondida</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                Colombia Escondida
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal"
+                aria-expanded="false"
+                aria-label="Abrir menú"
+            >
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="menuPrincipal"
+            >
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link active"
+                            href="#inicio"
+                        >
+                            Inicio
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="#destinos"
+                        >
+                            Destinos
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="#experiencias"
+                        >
+                            Experiencias
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="#contacto"
+                        >
+                            Contacto
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div
+        id="carouselColombia"
+        class="carousel slide"
+    >
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img
+                    src="img/Cerros_de_Mavicure.jpeg"
+                    class="d-block w-100"
+                    alt="Cerros de Mavicure"
+                >
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img
+                    src="img/Amazonia.jpeg"
+                    class="d-block w-100"
+                    alt="Amazonía Colombiana"
+                >
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img
+                    src="img/Pacifico_colombiano.jpeg"
+                    class="d-block w-100"
+                    alt="Pacífico Colombiano"
+                >
+
+            </div>
+
+
+        </div>
+
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselColombia"
+            data-bs-slide="prev"
+        >
+
+            <span class="carousel-control-prev-icon"></span>
+
+            <span class="visually-hidden">
+                Anterior
+            </span>
+
+        </button>
+
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselColombia"
+            data-bs-slide="next"
+        >
+
+            <span class="carousel-control-next-icon"></span>
+
+            <span class="visually-hidden">
+                Siguiente
+            </span>
+
+        </button>
+
+    </div>
+
+
+    <section
+        id="inicio"
+        class="container text-center py-5"
+    >
+
+        <h1 class="display-4 fw-bold">
+            Colombia Escondida
+        </h1>
+
+
+        <p class="lead text-secondary mt-3">
+            Hay una Colombia que todavía no has descubierto.
+        </p>
+
+
+        <p class="text-secondary">
+            Explora paisajes increíbles, culturas únicas y destinos
+            que guardan algunas de las historias más especiales
+            de nuestro país.
+        </p>
+
+
+        <button
+            type="button"
+            class="btn btn-success btn-lg mt-3"
+            data-bs-toggle="modal"
+            data-bs-target="#modalExplorar"
+        >
+
+            Descubrir destinos
+
+        </button>
+
+    </section>
+
+
+    <section
+        id="destinos"
+        class="container py-5"
+    >
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Destinos que inspiran
+            </h2>
+
+            <p class="text-secondary">
+                Descubre algunos de los lugares más sorprendentes
+                y menos conocidos de Colombia.
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-4">
+
+
+            <div class="col-12 col-sm-6 col-lg-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <img
+                        src="img/Cerros_de_Mavicure.jpeg"
+                        class="card-img-top"
+                        alt="Cerros de Mavicure"
+                    >
+
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title fw-bold">
+                            Cerros de Mavicure
+                        </h5>
+
+
+                        <p class="card-text">
+
+                            En el corazón del Guainía se encuentran
+                            estos imponentes cerros rodeados de selva
+                            y ríos.
+
+                        </p>
+
+
+                        <a
+                            href="#inicio"
+                            class="btn btn-success mt-auto"
+                        >
+                            Explorar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <img
+                        src="img/Pacifico_colombiano.jpeg"
+                        class="card-img-top"
+                        alt="Pacífico Colombiano"
+                    >
+
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title fw-bold">
+                            Pacífico Colombiano
+                        </h5>
+
+
+                        <p class="card-text">
+
+                            Una región donde la selva, el océano
+                            y una cultura llena de tradición
+                            se encuentran.
+
+                        </p>
+
+
+                        <a
+                            href="#inicio"
+                            class="btn btn-success mt-auto"
+                        >
+                            Explorar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-12 col-sm-6 col-lg-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <img
+                        src="img/Amazonia.jpeg"
+                        class="card-img-top"
+                        alt="Amazonía Colombiana"
+                    >
+
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title fw-bold">
+                            Amazonía Colombiana
+                        </h5>
+
+
+                        <p class="card-text">
+
+                            Un territorio de biodiversidad extraordinaria,
+                            ríos inmensos y paisajes que parecen
+                            de otro mundo.
+
+                        </p>
+
+
+                        <a
+                            href="#inicio"
+                            class="btn btn-success mt-auto"
+                        >
+                            Explorar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section
+        id="experiencias"
+        class="container text-center py-5"
+    >
+
+        <h2 class="fw-bold mb-3">
+            Experiencias para descubrir
+        </h2>
+
+
+        <p class="text-secondary">
+
+            Naturaleza, cultura, gastronomía y paisajes hacen parte
+            de las experiencias que ofrece Colombia.
+
+        </p>
+
+    </section>
+
+
+
+    <div
+        class="modal fade"
+        id="modalExplorar"
+        tabindex="-1"
+        aria-labelledby="modalExplorarLabel"
+        aria-hidden="true"
+    >
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+
+                    <h5
+                        class="modal-title fw-bold"
+                        id="modalExplorarLabel"
+                    >
+                        Explora Colombia
+                    </h5>
+
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar"
+                    ></button>
+
+                </div>
+
+
+
+                <div class="modal-body">
+
+                    <p class="text-secondary">
+
+                        Cuéntanos qué destino te gustaría descubrir.
+
+                    </p>
+
+
+                    <div class="mb-3">
+
+                        <label
+                            for="nombre"
+                            class="form-label"
+                        >
+                            Nombre
+                        </label>
+
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="nombre"
+                            placeholder="Escribe tu nombre"
+                        >
+
+                    </div>
+
+
+
+                    <div class="mb-3">
+
+                        <label
+                            for="destino"
+                            class="form-label"
+                        >
+                            Destino que te interesa
+                        </label>
+
+
+                        <select
+                            class="form-select"
+                            id="destino"
+                        >
+
+                            <option selected>
+                                Selecciona un destino
+                            </option>
+
+                            <option value="mavicure">
+                                Cerros de Mavicure
+                            </option>
+
+                            <option value="pacifico">
+                                Pacífico Colombiano
+                            </option>
+
+                            <option value="amazonia">
+                                Amazonía Colombiana
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="modal-footer">
+
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                        Cerrar
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="btn btn-success"
+                        data-bs-dismiss="modal"
+                    >
+                        Quiero explorar
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer
+        id="contacto"
+        class="bg-dark text-white text-center py-4 mt-5"
+    >
+
+        <p class="mb-0">
+
+            © 2026 Colombia Escondida
+            — Proyecto de Programación Web
+
+        </p>
+
+    </footer>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+
+</body>
+
+</html>
